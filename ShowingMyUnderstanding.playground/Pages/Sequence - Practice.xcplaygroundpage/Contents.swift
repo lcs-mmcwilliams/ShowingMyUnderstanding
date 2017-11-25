@@ -47,23 +47,48 @@ canvas.fillColor = Color(hue: 104, saturation: 100, brightness: 100, alpha: 100)
 //circles
 canvas.drawEllipse(centreX: 75, centreY: 200, width: 100, height: 100)
 
-//colour - red
-canvas.fillColor = Color(hue: 360, saturation: 100, brightness: 70, alpha: 100)
-
-//circles
-canvas.drawEllipse(centreX: 175, centreY: 200, width: 100, height: 100)
-
-//colour - yellow
-canvas.fillColor = Color(hue: 67, saturation: 100, brightness: 100, alpha: 70)
+//colour - yellow circle
+canvas.fillColor = Color(hue: 67, saturation: 100, brightness: 100, alpha: 100)
 
 //circles
 canvas.drawEllipse(centreX: 125, centreY: 200, width: 100, height: 100)
 
 //colour - green circle
-canvas.fillColor = Color(hue: 104, saturation: 100, brightness: 100, alpha: 50)
+canvas.fillColor = Color(hue: 104, saturation: 100, brightness: 100, alpha: 25)
 
 //circles
 canvas.drawEllipse(centreX: 75, centreY: 200, width: 100, height: 100)
+
+//color- solid red
+canvas.fillColor = Color.red
+
+//circles
+canvas.drawEllipse(centreX: 175, centreY: 200, width: 100, height: 100, borderWidth: 0)
+
+//colour - yellow
+canvas.fillColor = Color(hue: 15, saturation: 100, brightness: 90, alpha: 25)
+canvas.drawEllipse(centreX: 125, centreY: 200, width: 100, height: 100)
+
+//
+////colour - blue
+//canvas.fillColor = Color(hue: 235, saturation: 100, brightness: 100, alpha: 100)
+//
+////circles
+//canvas.drawEllipse(centreX: 215, centreY: 200, width: 100, height: 100)
+//
+////colour - red
+//canvas.fillColor = Color(hue: 15, saturation: 100, brightness: 90, alpha: 50)
+//
+////circles
+//canvas.drawEllipse(centreX: 175, centreY: 200, width: 100, height: 100)
+//
+
+//
+////colour - yellow
+//canvas.fillColor = Color(hue: 67, saturation: 100, brightness: 100, alpha: 70)
+//
+////circles
+//canvas.drawEllipse(centreX: 125, centreY: 200, width: 100, height: 100)
 
 //
 
